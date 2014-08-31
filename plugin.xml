@@ -23,7 +23,7 @@
   <platform name="android">
 
     <config-file target="AndroidManifest.xml" parent="/*/application/activity">
-    <activity android:name="com.swatsdat.weply" android:label="@string/weply">
+    <activity android:name="com.swatsdat.weply">
       <intent-filter>
         <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME" android:pathPattern=".*"/>
         <action android:name="android.intent.action.VIEW" />
