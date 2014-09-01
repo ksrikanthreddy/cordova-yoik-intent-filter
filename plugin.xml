@@ -25,7 +25,7 @@
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
     <activity android:name="com.swatsdat.weply" android:label="@string/app_name">
       <intent-filter>
-        <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME" android:pathPattern=".*"/>
+        <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME" />
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
