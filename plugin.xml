@@ -23,7 +23,7 @@
   <platform name="android">
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-    <activity android:name="com.appgyver.runtime.standalone.MainActivity">
+    <activity android:name="com.appgyver.runtime.standalone.MainActivity" android:launchMode="singleTask">
       <intent-filter>
         <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME" />
         <action android:name="android.intent.action.VIEW" />
