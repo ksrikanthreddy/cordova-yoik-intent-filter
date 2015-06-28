@@ -12,8 +12,6 @@
 
   <license>MIT</license>
 
-  <preference name="URL_SCHEME" />
-  <preference name="HOST_NAME" />
 
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
@@ -25,7 +23,7 @@
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
     <activity android:name="com.appgyver.runtime.standalone.MainActivity" android:launchMode="singleTask" android:alwaysRetainTaskState="true">
       <intent-filter>
-        <data android:scheme="$URL_SCHEME" android:host="$HOST_NAME" />
+        <data android:scheme="mapp" android:host="mapp.com" />
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
